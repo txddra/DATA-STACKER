@@ -16,4 +16,6 @@
   - View listed data
   - Edit listed data
   - Delete listed data
+  - See the data count!
+  - and so much more!
 
