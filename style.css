@@ -11,22 +11,23 @@
    } */
    h1{
     text-align: center;
-    background-color: #f4845f;
+    background-color: #6d6875;
     /* color: #f25c54; */
 
 }
 h2{
-    background-color: #f7b267;
+    background-color: #b5838d;
+    
 }
 h3{
     background-color: #f6cdbc;
 }
    body { 
     background-image:
-      linear-gradient(
-        #f25c54, #f79d65
+linear-gradient(
+         #ce6a85,#bb8091
       );
-      height: 300%;
+      height: 100%;
   ;
      
 text-align: center;
@@ -39,8 +40,10 @@ table{
  justify-content: center;
 }
 td{
-    /* color */
+    /* color */ 
+  
     text-align: center;
+   
 
-    background-color: #f3e37c;
+    background-color: #ffcad4;
 }
