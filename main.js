@@ -1,8 +1,8 @@
-const app = function() {
+const app =  new function() {
 
-    let el = document.querySelector('countries');
+    this.el = document.getElementById('countries');
   
-    countries = ['France', 'Germany', 'England', 'Spain', 'Belgium', 'Italy', 'Portugal', 'Irland', 'Luxembourg'];
+    this.countries = ['France', 'Germany', 'England', 'Spain', 'Belgium', 'Italy', 'Portugal', 'Irland', 'Luxembourg'];
   
     this.Count = function(data) {
       let el   = document.getElementById('counter');
@@ -18,16 +18,16 @@ const app = function() {
       }
     };
     
-    const grabAll = function() {
+     this.grabAll = function() {
       let data = '';
   
       if (this.countries.length > 0) {
         for (i = 0; i < this.countries.length; i++) {
           data = data + '<tr>';
-          data += '<td>' + this.countries[i] + '</td>';
-          data += '<td><button onclick="app.Edit(' + i + ')">Edit</button></td>';
-          data += '<td><button onclick="app.Delete(' + i + ')">Delete</button></td>';
-          data += '</tr>';
+          data = data + '<td>' + this.countries[i] + '</td>';
+          data = data + '<td><button onclick="app.Edit(' + i + ')">Edit</button></td>';
+          data = data + '<td><button onclick="app.Delete(' + i + ')">Delete</button></td>';
+          data = data + '</tr>';
         }
       }
   
@@ -36,9 +36,9 @@ const app = function() {
     };
   
     this.Add = function () {
-      el = document.querySelector('add-name');
+      el = document.getElementById('add-name');
       // Get the value
-      var country = el.value;
+      let country = el.value;
   
       if (country) {
         // Add the new value
@@ -51,7 +51,7 @@ const app = function() {
     };
   
     this.Edit = function (item) {
-      var el = document.getElementById('edit-name');
+      let el = document.getElementById('edit-name');
       // Display value in the field
       el.value = this.countries[item];
       // Display fields
@@ -60,7 +60,7 @@ const app = function() {
   
       document.getElementById('saveEdit').onsubmit = function() {
         // Get value
-        var country = el.value;
+        let country = el.value;
   
         if (country) {
           // Edit value
