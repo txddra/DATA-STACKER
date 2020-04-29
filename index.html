@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register here.</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<div>
+    <div><h2>Students</h2>
+        <div>
+            <table style="width:60%">
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                  <th style="width: 50%;">Edit</th>
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>50</td>
+                  <td>placeholder</td>
+                </tr>
+                <tr>    
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>94</td>
+                  <td>placeholder</td>
+                </tr>
+              </table> 
+        </div>
+    </div>
+</div>
+  <body>
+
+
+      </body>
+      </html>
+     -->
+
+
+     
+     <!DOCTYPE html>
+     <html>
+     <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet"  href="style.css"/>
+       <title>Countries CRUD</title>
+       <style>
+           
+         input[type='submit'], button, [aria-label]{
+           cursor: pointer;
+         }
+         #spoiler{
+           display: none;
+         }
+       </style>
+     </head>
+     <body>
+     <!-- found a way to add a button -->
+     <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+       <input type="text" id="add-name" placeholder="New country">
+       <input type="submit" value="Add">
+     </form>
+     
+     <div id="spoiler" role="aria-hidden">
+       <form action="javascript:void(0);" method="POST" id="saveEdit">
+         <input type="text" id="edit-name">
+         <input type="submit" value="Edit" /> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+       </form>
+     </div>
+     
+     <p id="counter"></p>
+     
+     <table>
+       <tr>
+         <th>Name</th>
+       </tr>
+         <tbody id="countries">
+         </tbody>
+     </table>
+     
+    
+         <script src="main.js"></script>
+     <script></script>
+</body>
+</html>
