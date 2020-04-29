@@ -11,4 +11,9 @@
   ##     __!!DATA STACKER!!__
   ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthenucleararmsraceofalexenterprises.files.wordpress.com%2F2014%2F07%2Ftumblr_static_explosion_gif.gif&f=1&nofb=1)
   ---
-  
+  With the app , you'll be able to 
+  - Add/Create data
+  - View listed data
+  - Edit listed data
+  - Delete listed data
+
