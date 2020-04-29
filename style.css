@@ -9,6 +9,38 @@
 /* spoiler{
     display: none;
    } */
-   body {
-       background-color: hotpink;
-   }
+   h1{
+    text-align: center;
+    background-color: #f4845f;
+    /* color: #f25c54; */
+
+}
+h2{
+    background-color: #f7b267;
+}
+h3{
+    background-color: #f6cdbc;
+}
+   body { 
+    background-image:
+      linear-gradient(
+        #f25c54, #f79d65
+      );
+      height: 300%;
+  ;
+     
+text-align: center;
+}
+#counter{
+    font-size: 20px;
+}
+
+table{
+ justify-content: center;
+}
+td{
+    /* color */
+    text-align: center;
+
+    background-color: #f3e37c;
+}
