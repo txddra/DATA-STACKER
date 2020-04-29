@@ -24,5 +24,5 @@
 ### How to use:
 - input your data into the `new country` box
 - press `add`
-- watch your data appear right before your very eyes.
+  - watch your data appear right before your very eyes.
 - if you need to make a change select the `edit` button and change away. 
