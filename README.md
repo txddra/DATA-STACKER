@@ -19,3 +19,10 @@
   - See the data count!
   - and so much more!
 
+---
+ *in the current case, we're using countries, but it could be used for so much more*
+### How to use:
+- input your data into the `new country` box
+- press `add`
+- watch your data appear right before your very eyes.
+- if you need to make a change select the `edit` button and change away. 
